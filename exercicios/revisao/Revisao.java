@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class Revisao {
 
@@ -35,6 +37,11 @@ public class Revisao {
         public void setPreco(double preco){
             this.preco = preco;
         }
+
+        @Override
+        public String toString() {
+            return "Produto [nome=" + nome + ", quantidade=" + quantidade + ", preco=" + preco + "]";
+        }
         
     }
 
@@ -62,17 +69,39 @@ public class Revisao {
         public double calcularDesconto(){
             return getPreco() * 0.5;
         }
+
+        @Override
+        public String toString() {
+            return super.toString() + " Modelo=" + getModelo();
+        }
+    }
+
+    public static class Pedido{
+        private List<Produto> produtos = new ArrayList<>();
+
+        public void adicionarProd(Produto produto){
+            produtos.add(produto);
+        }
+
+        public List<Produto> getProdutos(){
+            return produtos;
+        }
     }
 
     public static void main(String[] args) {
         MarcaA pratoMarca = new MarcaA("modelo-0.1", "prato",2,33.0);
+        MarcaA talherMarca = new MarcaA("modelo-0.2", "copo", 4, 8.0);
 
-        System.out.println("Modelo: " + pratoMarca.getModelo());
-        System.out.println("Nome: " + pratoMarca.nome);
-        System.out.println("Quantidade: " + pratoMarca.getQuantidade());
-        System.out.println("Preço: " + pratoMarca.getPreco());
-        System.out.println("Preço com Desconto: " + pratoMarca.calcularDesconto());
+        Pedido pedido = new Pedido();
+        pedido.adicionarProd(pratoMarca);
+        pedido.adicionarProd(talherMarca);
+
+        System.out.println("Produtos: ");
+        for (Produto produto : pedido.getProdutos()){
+            System.out.println(produto);
+        }
         
     }
 
 }
+
