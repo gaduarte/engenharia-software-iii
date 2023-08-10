@@ -38,14 +38,14 @@ public class Revisao {
         
     }
 
-    public static class Marca extends Produto implements ProdutoDesconto{
+    public static class MarcaA extends Produto implements ProdutoDesconto{
         private String modelo;
 
-        public Marca() {
+        public MarcaA() {
 
         }
 
-        public Marca(String modelo, String nome, int quantidade,double preco) {
+        public MarcaA(String modelo, String nome, int quantidade,double preco) {
             super(nome,quantidade,preco);
             this.modelo = modelo;
         }
@@ -65,7 +65,7 @@ public class Revisao {
     }
 
     public static void main(String[] args) {
-        Marca pratoMarca = new Marca("modelo-0.1", "prato",2,33.0);
+        MarcaA pratoMarca = new MarcaA("modelo-0.1", "prato",2,33.0);
 
         System.out.println("Modelo: " + pratoMarca.getModelo());
         System.out.println("Nome: " + pratoMarca.nome);
