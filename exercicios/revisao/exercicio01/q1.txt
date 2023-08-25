@@ -1,0 +1,31 @@
+-- Criaria uma função para verificar o resto e iria aplica-la dentro da function valores(), removendo assim boa parte dos else if, else e console.log.
+const input = require('prompt-sync')()
+
+const n1 = input('Valor 1: ')
+const n2 = input('Valor 2: ')
+const soma = n1 + n2
+
+function valores(){
+
+    let sr, igual3, quadrado
+
+if(n1 % n2 === 1){
+    sr = (n1 + n2 + 1)
+    console.log('A soma das variáveis mais o resto da divisão será: ', sr)
+}else if((n1 % n2 == 2 && n1 % 2 == 0)){
+    console.log('Par')
+}else if((n1%n2 == 2 && n1 % 2 != 0)){
+    console.log('Impar')
+}
+else if((n1 % n2 == 3 )){
+    igual3 = (n1*soma)
+}else if(n1 % n2 == 4){
+    quadrado = (n1 + n2)/n2
+}else{
+    console.log('Quadrado dos números lidos.')
+}
+ console.log('Quando resto for igual a 3: ', igual3)
+ console.log('Quando for igual a quatro: ', quadrado)
+}
+
+valores()
