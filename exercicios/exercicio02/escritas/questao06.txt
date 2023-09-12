@@ -1,0 +1,1 @@
+ O acoplamento é uma dependência entre classes, mas precisamos controlar o nível de acoplamento em nossa aplicação, porque o forte acoplamento pode quebrar o encapsulamento e violar o princípio “Tell don't ask”.

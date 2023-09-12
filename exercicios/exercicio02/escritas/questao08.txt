@@ -1,0 +1,1 @@
+O princípio "tell don't ask" atenua o problema do acoplamento forte, evitando testes ou validações em execução na própria classe que possam estar encapsuladas. 

@@ -1,0 +1,1 @@
+ Em softwares simples ou complexos, não é possível zerar 100% o acoplamento porque é quase impossível obter código que não o possua ou que seja necessário seu uso.

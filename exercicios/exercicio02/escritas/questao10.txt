@@ -1,0 +1,1 @@
+O encapsulamento só reduz o alto acoplamento  se for fixado com uma régua coesa que evite sua quebra.

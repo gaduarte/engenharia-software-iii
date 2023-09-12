@@ -1,0 +1,2 @@
+2.0 - 
+b) O artigo "Coesão e Acoplamento em Sistemas Orientados a Objetos" define coesão como a relação  entre as responsabilidades de uma  classe e  cada um de seus métodos. Uma classe altamente coesa tem responsabilidades e objetivos claros e bem definidos, enquanto uma classe pouco coesa tem muitas responsabilidades diferentes e pouco vinculadas.
