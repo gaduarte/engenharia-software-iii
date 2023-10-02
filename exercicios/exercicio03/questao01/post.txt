@@ -1,0 +1,5 @@
+ID: 1
+Texto: post 01
+Autor: autor01
+Data: Sun Oct 01 15:02:21 BRT 2023
+Quantidade de Likes: 0
