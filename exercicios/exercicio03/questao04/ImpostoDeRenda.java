@@ -1,7 +1,7 @@
 package questao04;
 import java.util.List;
 
-public class ImpostoDeRenda implements Validacao {
+public class ImpostoDeRenda {
     private String cpfContribuinte;
     private List<Double> rendimentos;
     private List<Double> despesas;
@@ -23,17 +23,15 @@ public class ImpostoDeRenda implements Validacao {
         return despesas;
     }
 
-    
-    public void processar(List<Validacao> validacoes){
-        for(Validacao validacao: validacoes){
+    public void processar(List<Validacao> validacoes) {
+        for (Validacao validacao : validacoes) {
             validacao.validar();
         }
 
         CalculadoraImpostoDeRenda calculadora = new CalculadoraImpostoDeRenda();
-        double impostoDevido = calculadora.calcularImposto(validar(this));
+        double impostoDevido = calculadora.calcularImposto(this);
 
         RelatorioImpostoRenda relatorio = new RelatorioImpostoRenda();
-        relatorio.gerarRelatorio(validar(this,impostoDevido));
+        relatorio.gerarRelatorio(this, impostoDevido);
     }
-
 }
