@@ -1,5 +1,6 @@
 package questao04;
-// É uma forma conveniente de ser utilizado, porém deixa futuras expansões comprometidas ou com problemas de design, pois o código depende fortemente da verificação do tipo isFlightless() para o tratamento dos pássaro, ele só verifica se a ave voa ou não.
+// É uma forma conveniente de ser utilizado, porém deixa futuras expansões comprometidas ou com problemas de design, 
+// pois o código depende fortemente da verificação do tipo isFlightless() para o tratamento dos pássaro, ele só verifica se a ave voa ou não.
 
 abstract class Bird {
     public abstract void setLocation(double longitude, double latitude);
