@@ -1,0 +1,4 @@
+A utilização da herança entre as classes 'ContaBancaria' e 'ContaPoupanca' pode ser questionável, uma vez que nem todos os métodos da classe base ('ContaBancaria') 
+são aplicáveis diretamente à classe derivada ('ContaPoupanca'). 
+Uma solução mais recomendada seria adotar o princípio da composição em vez da herança.
+Ao utilizar composição, a classe 'ContaPoupanca' poderia conter uma instância de 'ContaBancaria' como um atributo interno. 
