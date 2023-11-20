@@ -1,6 +1,32 @@
-package questão05;
+package questão04;
+//Código antigo:
+/*
+abstract class Bird {
+    public abstract void setLocation(double longitude, double latitude);
+    public abstract void setAltitude(double altitude);
+    public abstract void draw();
+    
+    public abstract boolean isFlightless(); 
 
-// Sim a composição poderia ser aplicada. Essa correção garante que classses de pássaros sem voo não herdem funcionalidade de voo de suas supercclasses.
+
+void ArrangeBirdInPattern(Bird aBird) {
+    if (aBird.isFlightless()) {
+        ArrangeBirdOnGround(aBird);
+    } else {
+        ArrangeBirdInSky(aBird);
+    }
+}
+
+void ArrangeBirdOnGround(Bird bird) {
+    //
+}
+
+void ArrangeBirdInSky(Bird bird) {
+    // 
+}
+}
+*/
+//Correção
 
 abstract class Bird {
     public abstract void draw();
