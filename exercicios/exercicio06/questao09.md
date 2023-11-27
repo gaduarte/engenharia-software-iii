@@ -1,0 +1,1 @@
+Cada princípio possui sua própria importância, e em um eventual checklist, seria apropriado considerar o Princípio da Inversão de Dependência como um dos primeiros a ser avaliado. Priorizá-lo no início do processo de desenvolvimento pode contribuir significativamente para um design mais flexível e resiliente.
