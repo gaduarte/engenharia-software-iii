@@ -1,0 +1,1 @@
+O Princípio de Inversão de Dependências refere-se à estratégia de depender de interfaces ou funções e classes abstratas em vez de depender diretamente de funções e classes concretas.
