@@ -1,1 +1,0 @@
-Programar voltado para interfaces é uma abordagem que contribui para a redução do acoplamento, favorece o encapsulamento e promove a abstração. Em certos contextos, essa prática se assemelha ao uso de classes abstratas, simplificando a aplicação do Princípio da Inversão de Dependências.
