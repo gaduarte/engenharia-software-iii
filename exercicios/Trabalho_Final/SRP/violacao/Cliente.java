@@ -1,5 +1,6 @@
 package SRP.violacao;
 
+//Viola o princípio da Responsabilidade Única, pois a classe 'Cliente' está assumindo múltiplas responsabilidades, indo além do que seria apropriado.
 
 import java.time.LocalDate;
 
