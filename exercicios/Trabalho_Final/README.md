@@ -1,4 +1,6 @@
--- Integarntes:
-  -Francimara Matos de Oliveira
-  -Lucas Coêlho Carvalho
-  --Gabriela Duarte Albornoz
+## Integrantes:
+
+- Francimara Matos de Oliveira
+- Lucas Coêlho Carvalho
+- Gabriela Duarte Albornoz
+
